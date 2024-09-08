@@ -1,0 +1,4 @@
+- **Scenario 1: Logout Confirmation**
+  - **Given** a user is authenticated,
+  - **When** they select the logout option,
+  - **Then** the system disconnects them and redirects to the login page.

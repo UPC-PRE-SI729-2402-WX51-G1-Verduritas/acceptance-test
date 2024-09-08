@@ -1,0 +1,4 @@
+- **Scenario 1: Order Confirmation Notification**
+  - **Given** a group has placed an order,
+  - **When** the order is confirmed,
+  - **Then** each group member should receive a confirmation notification with order details.
