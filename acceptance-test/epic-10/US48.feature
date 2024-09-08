@@ -1,0 +1,11 @@
+- **Scenario 1: Update Group Order**
+  - **Given** a user updates an existing group order,
+  - **When** a PUT request is made to the `/api/group-orders/{orderId}` endpoint with the updated details,
+  - **Then** the system should update the order and return a success confirmation.
+  - **HTTP Status:** 200 OK
+
+- **Scenario 2: Delete Group Order**
+  - **Given** a user deletes a group order,
+  - **When** a DELETE request is made to the `/api/group-orders/{orderId}`,
+  - **Then** the system should delete the order and confirm the deletion.
+  - **HTTP Status:** 200 OK
